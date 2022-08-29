@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'InterBold';
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'InterMedium';
+    src: url(../fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'InterRegular';
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'InterSemiBold';
+    src: url(../fonts/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'ManropeExtraBold';
+    src: url(../fonts/Manrope-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'MulishBold';
+    src: url(../fonts/Mulish-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'MulishExtraBold';
+    src: url(../fonts/Mulish-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'MulishMedium';
+    src: url(../fonts/Mulish-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'MulishRegular';
+    src: url(../fonts/Mulish-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'OutfitBold';
+    src: url(../fonts/Outfit-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'OutfitSemiBold';
+    src: url(../fonts/Outfit-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'ProductSansBold';
+    src: url(../fonts/Product-Sans-Bold.ttf);
+}
