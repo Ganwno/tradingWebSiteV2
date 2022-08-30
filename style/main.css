@@ -128,7 +128,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 115px;
+    padding-top: 135px;
 }
 
 .header__content-title {
@@ -354,6 +354,9 @@ color: #696871;
 }
 .contacts__content-right{
     padding-top: 185px;
+}
+.education__content-desc{
+    width: 560px;
 }
 /*main*/
 
@@ -799,13 +802,15 @@ transition: .5s;
     padding: 175px 0;
     background: #F7F8FA;
 }
-.slider__dots .swiper-pagination-bullet{
+.slider__dots .swiper-pagination-bullet,
+.reviews__dots .swiper-pagination-bullet{
     height: 15px ;
     width:  15px;
     background: #DDE0E4;   
     transition: .5s;
 }
-.slider__dots .swiper-pagination-bullet-active{
+.slider__dots .swiper-pagination-bullet-active,
+.reviews__dots .swiper-pagination-bullet-active{
     background: #79CB9D;
     width: 42px;  
     border-radius: 50px;
@@ -845,6 +850,60 @@ transition: .5s;
     position: absolute;
     bottom: -50px;
     right: 0;
+}
+.education__setting-card:nth-of-type(1){
+    padding: 35px 50px 30px 45px;
+}
+.about__content-left{
+    padding-top: 60px;
+}
+.main__education-desc{
+    width: 520px;
+}
+.main__education-right{
+    padding-top: 0;
+}
+.main__gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main__teachers-card{
+    max-width: 280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.main__teachers-image{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    background: #D9D9D9;
+    margin-bottom: 20px;
+}
+.main__teachers-card h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    color: #19191B;
+}
+.main__teachers-card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #696871;
+    margin-top: 10px;
+}
+.main__teachers-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__teachers{
+    padding: 160px 0;
 }
 /*footer*/
 .footer__content{
