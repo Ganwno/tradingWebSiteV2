@@ -16,7 +16,7 @@
         <nav class="nav">
             <div class="container">
                 <div class="header__nav">
-                    <a href="#" class="header__logo"><img src="images/logo.png" alt="Logo"></a>
+                    <a href="index.html" class="header__logo"><img src="images/logo.png" alt="Logo"></a>
                     <ul class="header__nav-lists">
                         <li class="header__nav-list">
                             <a href="index.html" class="header__nav-link">Главная</a>
@@ -39,7 +39,7 @@
                             <a href="about.html" class="header__nav-link">О компании</a>
                         </li>
                     </ul>
-                    <a href="#" class="header__nav-btn">Регистрация</a>
+                    <a href="#" class="header__nav-btn popUp__btn">Регистрация</a>
                 </div>
             </div>
         </nav>
@@ -50,7 +50,7 @@
                         <h1 class="header__content-title">Торгуйте на валютном рынке</h1>
                         <p class="header__content-desc">Покупайте, продавайте и зарабатывайте на акциях, облигациях, криптовалютах и драгоценных металлах</p>
                         <div class="header__btn">
-                            <a href="#" class="header__content-btn">Начать </a>
+                            <a href="#" class="header__content-btn popUp__btn">Начать </a>
                             <i class="fa-light fa-arrow-down arrow_btn"></i>
                         </div>
 
@@ -101,7 +101,7 @@
                         </h2>
                         <p class="header__content-desc">Наши клиенты получают лучшие торговые условия и возможность ведения торгов с любого гаджета</p>
                         <div class="header__btn">
-                            <a href="#" class="header__content-btn">Регистрация </a>
+                            <a href="#" class="header__content-btn popUp__btn">Регистрация </a>
                             <i class="fa-light fa-arrow-down arrow_btn"></i>
                         </div>
                     </div>
@@ -210,7 +210,7 @@
                                 <p class="setting__card-desc">Искусственный интеллект делится 
                                     торговыми стратегиями, аналитикой, 
                                     ежедневными обзорами рынка</p>
-                                    <a href="#" class="setting__card-btn">Подробнее <i class="fa-solid fa-caret-right setting_arrow"></i></a>
+                                    <a href="trading_robot.html" class="setting__card-btn">Подробнее <i class="fa-solid fa-caret-right setting_arrow"></i></a>
                             </div>
                         </div>
                         <div class="trading__setting-card">
@@ -219,7 +219,7 @@
                                 <h3 class="setting__card-title">Обучение</h3>
                                 <p class="setting__card-desc">Ознакомьтесь с основами 
                                     биржевой торговли</p>
-                                    <a href="#" class="setting__card-btn">Подробнее <i class="fa-solid fa-caret-right setting_arrow"></i></a>
+                                    <a href="education.html" class="setting__card-btn">Подробнее <i class="fa-solid fa-caret-right setting_arrow"></i></a>
                             </div>
                         </div>
                     </div>
@@ -234,7 +234,7 @@
                             программа</h1>
                         <p class="header__content-desc">Расскажите о нашем сообществе своим друзьям. 49$ мгновенный бонус за присоединившегося пользователя по рекомендации</p>
                         <div class="header__btn">
-                            <a href="#" class="header__content-btn">Присоединиться </a>
+                            <a href="#" class="header__content-btn popUp__btn">Присоединиться </a>
                         </div>
                     </div>
                     <div class="main__referal-right">
@@ -340,6 +340,34 @@
             </div>
         </div>
     </footer>
+   
+    <div class="popUp__window">
+    </div>
+    <div class="popUp__content">
+        <div class="popUp_congrats">
+            <img src="images/congrats.png" alt="">
+            <h3 class="congrats_title">Заявка отправлена!</h3>
+            <p class="congrats_desc">Наши сотрудники в скором 
+                времени свяжутся с вами!</p>
+        </div>
+        <div class="popUp_content-form">
+            <img src="images/popup__logo.png" alt="">
+            <form action="" class="popUp__form">
+                <div class="popUp_input">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" placeholder="Введите Ваше имя">
+                </div>
+                <div class="popUp_input">
+                    <label for="number">Номер телефона</label>
+                    <input type="text" id="number" placeholder="Введите номер телефона">
+                </div>
+            </form>
+        </div>
+        <a href="#" class="popUp_send-btn">Отправить заявку</a>
+    </div>
+
+    
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>

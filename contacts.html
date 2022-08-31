@@ -15,7 +15,7 @@
         <nav class="nav">
             <div class="container">
                 <div class="header__nav">
-                    <a href="#" class="header__logo"><img src="images/logo.png" alt="Logo"></a>
+                    <a href="index.html" class="header__logo"><img src="images/logo.png" alt="Logo"></a>
                     <ul class="header__nav-lists">
                         <li class="header__nav-list">
                             <a href="index.html" class="header__nav-link">Главная</a>
@@ -38,7 +38,7 @@
                             <a href="about.html" class="header__nav-link">О компании</a>
                         </li>
                     </ul>
-                    <a href="#" class="header__nav-btn">Регистрация</a>
+                    <a href="#" class="header__nav-btn popUp__btn">Регистрация</a>
                 </div>
             </div>
         </nav>
@@ -62,7 +62,9 @@
                             <li>Понедельник - Пятница: 10:00 - 19:00 (GMT+3)</li>
                         </ul>
                        </div>
-                       <img src="images/contacts_map.png" alt="">
+                       <div class="main__contacts-location">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7988.65648888689!2d30.303485!3d59.962601!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696314593ef2899%3A0x536c690a56d4f15c!2z0YPQuy4g0JvQtdC90LjQvdCwLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGP!5e0!3m2!1sru!2sus!4v1661932128235!5m2!1sru!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                       </div>
 
                     </div>
                     <div class="trading__content-right contacts__content-right">
@@ -90,7 +92,7 @@
         </div>
     </header>
     <main>
-        <div class="main__courses">
+        <div class="main__courses contact__info">
             <div class="container">
                 <div class="main__courses-info">
                     <div class="main__courses-left">
@@ -187,5 +189,30 @@
             </div>
         </div>
     </footer>
+    <div class="popUp__window">
+    </div>
+    <div class="popUp__content">
+        <div class="popUp_congrats">
+            <img src="images/congrats.png" alt="">
+            <h3 class="congrats_title">Заявка отправлена!</h3>
+            <p class="congrats_desc">Наши сотрудники в скором 
+                времени свяжутся с вами!</p>
+        </div>
+        <div class="popUp_content-form">
+            <img src="images/popup__logo.png" alt="">
+            <form action="" class="popUp__form">
+                <div class="popUp_input">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" placeholder="Введите Ваше имя">
+                </div>
+                <div class="popUp_input">
+                    <label for="number">Номер телефона</label>
+                    <input type="text" id="number" placeholder="Введите номер телефона">
+                </div>
+            </form>
+        </div>
+        <a href="#" class="popUp_send-btn">Отправить заявку</a>
+    </div>
+    <script src="scripts/main.js"></script>
 </body>
 </html>

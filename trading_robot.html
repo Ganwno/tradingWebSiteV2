@@ -19,7 +19,7 @@
         <nav class="nav">
             <div class="container">
                 <div class="header__nav">
-                    <a href="#" class="header__logo"><img src="images/logo.png" alt="Logo"></a>
+                    <a href="index.html" class="header__logo"><img src="images/logo.png" alt="Logo"></a>
                     <ul class="header__nav-lists">
                         <li class="header__nav-list">
                             <a href="index.html" class="header__nav-link">Главная</a>
@@ -42,7 +42,7 @@
                             <a href="about.html" class="header__nav-link">О компании</a>
                         </li>
                     </ul>
-                    <a href="#" class="header__nav-btn">Регистрация</a>
+                    <a href="#" class="header__nav-btn popUp__btn">Регистрация</a>
                 </div>
             </div>
         </nav>
@@ -53,7 +53,7 @@
                         <h1 class="header__content-title trading__content-title" >Что такое торговый робот?</h1>
                         <p class="header__content-desc">Это алгоритм, запрограммированный для ведения торговли на рынке Форекс в автоматизированном режиме с учетом аналитики и риск-менеджмента</p>
                         <div class="header__btn">
-                            <a href="#" class="header__content-btn">Торговать </a>
+                            <a href="#" class="header__content-btn popUp__btn">Торговать </a>
                             <i class="fa-light fa-arrow-down arrow_btn"></i>
                         </div>
 
@@ -168,7 +168,7 @@
                         </h2>
                     
                         <div class="header__btn">
-                            <a href="#" class="header__content-btn">Выбрать тариф</a>
+                            <a href="#" class="header__content-btn popUp__btn">Выбрать тариф</a>
                         </div>
                     </div>
                 </div>
@@ -216,7 +216,9 @@
             <div class="container">
                 <div class="main__video-presentation">
                     <h2 class="plan__info-title main__video-title">Видео-презентация</h2>
+                    <div class="main__video-img">
                         <img src="images/video-player.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -343,6 +345,30 @@
             </div>
         </div>
     </footer>
+    <div class="popUp__window">
+    </div>
+    <div class="popUp__content">
+        <div class="popUp_congrats">
+            <img src="images/congrats.png" alt="">
+            <h3 class="congrats_title">Заявка отправлена!</h3>
+            <p class="congrats_desc">Наши сотрудники в скором 
+                времени свяжутся с вами!</p>
+        </div>
+        <div class="popUp_content-form">
+            <img src="images/popup__logo.png" alt="">
+            <form action="" class="popUp__form">
+                <div class="popUp_input">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" placeholder="Введите Ваше имя">
+                </div>
+                <div class="popUp_input">
+                    <label for="number">Номер телефона</label>
+                    <input type="text" id="number" placeholder="Введите номер телефона">
+                </div>
+            </form>
+        </div>
+        <a href="#" class="popUp_send-btn">Отправить заявку</a>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="scripts/main.js"></script>
 </body>

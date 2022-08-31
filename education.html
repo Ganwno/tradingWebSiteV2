@@ -18,7 +18,7 @@
         <nav class="nav">
             <div class="container">
                 <div class="header__nav">
-                    <a href="#" class="header__logo"><img src="images/logo.png" alt="Logo"></a>
+                    <a href="index.html" class="header__logo"><img src="images/logo.png" alt="Logo"></a>
                     <ul class="header__nav-lists">
                         <li class="header__nav-list">
                             <a href="index.html" class="header__nav-link">Главная</a>
@@ -41,7 +41,7 @@
                             <a href="about.html" class="header__nav-link">О компании</a>
                         </li>
                     </ul>
-                    <a href="#" class="header__nav-btn">Регистрация</a>
+                    <a href="#" class="header__nav-btn popUp__btn">Регистрация</a>
                 </div>
             </div>
         </nav>
@@ -76,7 +76,7 @@
                             <h3 class="setting__card-title">Арбитраж 
                                 криптовалюты</h3>
                             <p class="setting__card-desc">Ознакомьтесь с основами арбитража</p>
-                                <a href="#" class="setting__card-btn">Подробнее <i class="fa-solid fa-caret-right setting_arrow"></i></a>
+                                <a href="arbitration.html" class="setting__card-btn">Подробнее <i class="fa-solid fa-caret-right setting_arrow"></i></a>
                         </div>
                     </div>
                     <div class="trading__setting-card education__setting-card">
@@ -85,7 +85,7 @@
                             <h3 class="setting__card-title">Трейдинг</h3>
                             <p class="setting__card-desc">Ознакомьтесь с основами 
                                 биржевой торговли</p>
-                                <a href="#" class="setting__card-btn">Подробнее <i class="fa-solid fa-caret-right setting_arrow"></i></a>
+                                <a href="trading.html" class="setting__card-btn">Подробнее <i class="fa-solid fa-caret-right setting_arrow"></i></a>
                         </div>
                     </div>
                 </div>
@@ -318,6 +318,30 @@
             </div>
         </div>
     </footer>
+    <div class="popUp__window">
+    </div>
+    <div class="popUp__content">
+        <div class="popUp_congrats">
+            <img src="images/congrats.png" alt="">
+            <h3 class="congrats_title">Заявка отправлена!</h3>
+            <p class="congrats_desc">Наши сотрудники в скором 
+                времени свяжутся с вами!</p>
+        </div>
+        <div class="popUp_content-form">
+            <img src="images/popup__logo.png" alt="">
+            <form action="" class="popUp__form">
+                <div class="popUp_input">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" placeholder="Введите Ваше имя">
+                </div>
+                <div class="popUp_input">
+                    <label for="number">Номер телефона</label>
+                    <input type="text" id="number" placeholder="Введите номер телефона">
+                </div>
+            </form>
+        </div>
+        <a href="#" class="popUp_send-btn">Отправить заявку</a>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="scripts/main.js"></script>
 </body>
